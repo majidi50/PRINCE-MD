@@ -80,7 +80,7 @@ cmd({
 
 cmd({
     pattern: "roast",
-    desc: "Roast someone in Hindi",
+    desc: "Roast someone in Tanzania",
     category: "fun",
     react: "🔥",
     filename: __filename,
