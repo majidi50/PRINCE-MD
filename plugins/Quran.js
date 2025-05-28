@@ -67,7 +67,7 @@ ${translatedTafsirEnglish.text}`;
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363207624903731@newsletter', 
-            newsletterName: '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖', 
+            newsletterName: 'PRINCE 𝐓𝐄𝐂𝐇 🤖', 
             serverMessageId: 143
           }
         }
@@ -100,7 +100,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `❤️  ⊷┈ *TOHID_MD QURAN KAREEM* ┈⊷  🤍
+        let dec = `❤️  ⊷┈ *PRINCE_MD QURAN KAREEM* ┈⊷  🤍
 
  💫 𝘈𝘭𝘭 𝘴𝘶𝘳𝘢𝘩 𝘢𝘯𝘥 𝘵𝘩𝘦𝘪𝘳 𝘯𝘶𝘮𝘣𝘦𝘳𝘴 𝘭𝘪𝘴𝘵
 𝘧𝘰𝘳 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 𝘴𝘶𝘳𝘢𝘩 𝘵𝘺𝘱𝘦 .𝘴𝘶𝘳𝘢𝘩 36 💫🌸 
