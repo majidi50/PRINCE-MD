@@ -53,10 +53,10 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/Tohidkhan6332/TOHID_MD';
+    const githubRepo = 'https://github.com/majidi50/.-PRINCE-MD';
 
     // Check update status
-    let updateMessage = `✅ Your Tohid_Md bot is up-to-date!`;
+    let updateMessage = `✅ Your Prince_Md bot is up-to-date!`;
     if (localVersion !== latestVersion) {
       updateMessage = `🚀 Your Tohid_Md bot is outdated!
 🔹 *Current Version:* ${localVersion}
