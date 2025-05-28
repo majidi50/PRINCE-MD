@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart TOHID_MD",  
+    desc: "Restart PRINCE_MD",  
     category: "owner",  
     filename: __filename  
 },  
