@@ -43,7 +43,7 @@ OWNER_NAME: process.env.OWNER_NAME || "prince Tech",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 PRINCE MD*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/4ZSYvPTq/lordali.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/cz46m1.jpeg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> PRINCE_MD BOT IS ALIVE*⚡",
 // add alive msg here 
