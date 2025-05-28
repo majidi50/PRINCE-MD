@@ -172,7 +172,7 @@ ${repoData.description || 'No description provided'}
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/HpGFPCTV/lordali.jpg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/cz46m1.jpeg' },
             caption: selectedStyle,
             contextInfo: { 
                 mentionedJid: [m.sender],
