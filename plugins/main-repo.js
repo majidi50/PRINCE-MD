@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Tohidkhan6332/TOHID_MD';
+    const githubRepoURL = 'https://github.com/majidi50/.-PRINCE-MD';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -180,7 +180,7 @@ ${repoData.description || 'No description provided'}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363207624903731@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖',
+                    newsletterName: config.OWNER_NAME || 'PRINCE 𝐓𝐄𝐂𝐇 🤖',
                     serverMessageId: 143
                 }
             }
