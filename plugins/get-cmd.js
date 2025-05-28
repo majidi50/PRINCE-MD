@@ -43,7 +43,7 @@ ${truncatedCode}
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/4ZSYvPTq/lordali.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/fltpob.jpeg` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -51,7 +51,7 @@ ${truncatedCode}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363207624903731@newsletter',
-                    newsletterName: '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖',
+                    newsletterName: 'PRINCE 𝐓𝐄𝐂𝐇 🤖',
                     serverMessageId: 143
                 }
             }
