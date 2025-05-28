@@ -58,7 +58,7 @@ cmd({
     // Check update status
     let updateMessage = `✅ Your Prince_Md bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your Tohid_Md bot is outdated!
+      updateMessage = `🚀 Your prince_Md bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
