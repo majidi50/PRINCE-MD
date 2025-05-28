@@ -1,12 +1,12 @@
 {
-  "name": "TOHID_MD",
+  "name": "PRINCE_MD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By Tohid Khan",
+  "description": "A WhatsApp Bot Created By princetech",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name TOHID_MD",
     "stop": "pm2 stop TOHID_MD",
-    "restart": "pm2 restart TOHID_MD"
+    "restart": "pm2 restart PRINCE_MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.9",
