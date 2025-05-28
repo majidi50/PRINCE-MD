@@ -37,14 +37,14 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
         let message = body.slice(body.indexOf(command) + command.length).trim();
         if (!message) message = "Attention Everyone"; // Default message
 
-        let teks = `▢ Group : *${groupName}*\n▢ Members : *${totalMembers}*\n▢ Message: *${message}*\n\n┌───⊷ *MENTIONS*\n`;
+        let teks = `▢ Group : *${groupName}*\n☠️ Members : *${totalMembers}*\n▢ Message: *${message}*\n\n┌───⊷ *MENTIONS*\n`;
 
         for (let mem of participants) {
             if (!mem.id) continue; // Prevent undefined errors
             teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
         }
 
-        teks += "└──✪ TOHID ┃ MD ✪──";
+        teks += "└──✪🌚 PRINCE ┃ 🖱️MD ✪──";
 
         conn.sendMessage(from, { text: teks, mentions: participants.map(a => a.id) }, { quoted: mek });
 
