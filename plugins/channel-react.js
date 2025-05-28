@@ -22,7 +22,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         if (!isCreator) return reply("❌ Owner only command");
-        if (!q) return reply(`Usage:\n${command} https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T hello`);
+        if (!q) return reply(`Usage:\n${command} https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V/153 hello`);
 
         const [link, ...textParts] = q.split(' ');
         if (!link.includes("whatsapp.com/channel/")) return reply("Invalid channel link format");
