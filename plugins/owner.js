@@ -44,7 +44,7 @@ async (conn, mek, m, { from }) => {
 ┃◈├ ╚╩═╩╩╝───╚╩═╩╩╩╩═╝
 ┃◈╰─────────────●●►
 ╰──────────────┈⊷
-> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚃𝙾𝙷𝙸𝙳_𝙼𝙳`, // Display the owner's details
+> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 PRINCE_𝙼𝙳`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
