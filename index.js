@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there prince_md User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet prince_md  WhatsApp Bot.\n\n *Thanks for using prince_md \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/majidi50/.-PRINCE-MD\n\n> 👋🏻POWERED BY PRINCE MD \ud83d\udda4`;
+  let up = `*Hello👋🏻  prince_md User😀 \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet prince_md  WhatsApp Bot.\n\n *Thanks for using prince_md \ud83d\udea9* \n\n> Join WhatsApp Channel :- 🙂\n \nhttps://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V/153\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/majidi50/.-PRINCE-MD\n\n> 👋🏻POWERED BY PRINCE MD \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/76sqhj.jpg` }, caption: up })
   }
   })
